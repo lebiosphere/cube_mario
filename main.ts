@@ -50,7 +50,7 @@ basic.forever(function () {
     if (lumiere == 1) {
         strip.showColor(neopixel.colors(NeoPixelColors.White))
     } else {
-        strip.showColor(neopixel.colors(NeoPixelColors.Black))
+        strip.showColor(neopixel.hsl(255, 125, 10))
     }
     basic.pause(10)
 })
